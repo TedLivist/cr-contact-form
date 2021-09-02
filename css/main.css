@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&family=Inter:wght@400;700&display=swap");
 
+body {
+  position: relative;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -144,6 +148,16 @@ main {
 .projects hr {
   margin: 25px 0;
   border-color: #212121;
+}
+
+.nav-menu {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
 }
 
 .first-card-description,
