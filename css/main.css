@@ -153,11 +153,23 @@ main {
 .nav-menu {
   height: 100%;
   width: 100%;
-  background-color: white;
+  background-color: #3C3A39;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 20;
+}
+
+.menu-item {
+  margin: 0 2rem 2.5rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-bottom: 5px solid yellow;
+}
+
+.clear {
+  clear: both;
 }
 
 .bx-x {
@@ -166,6 +178,7 @@ main {
   margin-right: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
+  color: grey;
 }
 
 .first-card-description,
