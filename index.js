@@ -1,10 +1,14 @@
 const menuBar = document.querySelector('.menu-bars')
 const navMenu = document.querySelector('.nav-menu')
 const header = document.querySelector('header')
+const closeBtn = document.querySelector('.bx-x')
 
 menuBar.addEventListener('click', () => {
-  header.style.display = 'none'
-  navMenu.style.display = 'flex'
+  navMenu.style.display = 'block'
+})
+
+closeBtn.addEventListener('click', () => {
+  navMenu.style.display = 'none'
 })
 
 // const divBar = document.createElement('div')
