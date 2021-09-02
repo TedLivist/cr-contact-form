@@ -11,7 +11,7 @@ closeBtn.addEventListener('click', () => {
   navMenu.style.display = 'none';
 });
 
-for (let i = 1; i <= menuLinks.length; i += 1) {
+for (let i = 0; i <= menuLinks.length - 1; i += 1) {
   menuLinks[i].addEventListener('click', () => {
     navMenu.style.display = 'none';
   });
