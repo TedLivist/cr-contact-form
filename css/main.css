@@ -163,10 +163,16 @@ main {
 
 .menu-item {
   margin: 0 2rem 2.5rem;
-  font-size: 3.5rem;
+  padding-left: 1rem;
+  font-size: 3rem;
   font-weight: bold;
   font-family: sans-serif;
-  border-bottom: 5px solid yellow;
+  border-bottom: 2px solid grey;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #FFF5E1;
 }
 
 .clear {
@@ -176,7 +182,7 @@ main {
 .bx-x {
   font-size: 3rem;
   float: right;
-  margin-right: 10px;
+  margin-right: 1rem;
   margin-top: 5px;
   margin-bottom: 5px;
   color: grey;
