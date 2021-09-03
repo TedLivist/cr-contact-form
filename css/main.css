@@ -361,3 +361,9 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+@media (min-width: 992px) {
+  .menu-bars {
+    display: none;
+  }
+}
