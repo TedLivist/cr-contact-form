@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&family=Inter:wght@400;700&display=swap");
 
+body {
+  position: relative;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -144,6 +148,44 @@ main {
 .projects hr {
   margin: 25px 0;
   border-color: #212121;
+}
+
+.nav-menu {
+  height: 100%;
+  width: 100%;
+  background-color: #3c3a39;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  display: none;
+}
+
+.menu-item {
+  margin: 0 2rem 2.5rem;
+  padding-left: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-bottom: 2px solid grey;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #fff5e1;
+}
+
+.clear {
+  clear: both;
+}
+
+.bx-x {
+  font-size: 3rem;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: grey;
 }
 
 .first-card-description,
@@ -324,4 +366,10 @@ li {
 
 .skills {
   list-style: inside url("../media/svg/circle.svg");
+}
+
+@media (min-width: 992px) {
+  .menu-bars {
+    display: none;
+  }
 }

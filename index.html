@@ -5,15 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <title>Aziz Mejri - Portfolio</title>
   </head>
   <body>
     <header>
       <h1 id="logo">Aziz Mejri</h1>
       <button type="button" class="menu-bars">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars fa-lg"></i>
       </button>
     </header>
+    <section class="nav-menu">
+      <i class='bx bx-x'></i>
+      <div class="clear"></div>
+      <div class="menu-item">
+        <a href="#projects" class="menu-links">Portfolio</a>
+      </div>
+      <div class="menu-item">
+        <a href="#about" class="menu-links">About</a>
+      </div>
+      <div class="menu-item">
+        <a href="#resume-link" class="menu-links">Contact</a>
+      </div>
+    </section>
     <main>
       <div class="intro">
         <div class="intro-icon">
@@ -94,7 +108,7 @@
           </a>
         </div>
       </div>
-      <div class="projects">
+      <div id="projects" class="projects">
         <h2>My Recent Work</h2>
         <hr />
         <div class="first-card">
@@ -218,7 +232,7 @@
         </div>
         
       </div>
-      <div class="about-me">
+      <div id="about" class="about-me">
         <section class="about-me-section">
           <h2>About me</h2>
           <p class="about-me-text">
@@ -234,6 +248,7 @@
           </p>
           <a
             href="https://docs.google.com/document/d/1lYq0Kb50TujzJzDWGobIchRI17JMnAiZMF9OBQgNU68/edit?usp=sharing"
+            id="resume-link"
             class="link"
             target="_blank"
             rel="noreferrer noopener"
@@ -291,9 +306,7 @@
       </div>
     </main>
 
-    <script
-      src="https://kit.fontawesome.com/e966a3bd22.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/e966a3bd22.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
   </body>
 </html>
